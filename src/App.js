@@ -86,7 +86,7 @@ function App() {
       {/* Background Music */}
       <audio
         ref={audioRef}
-        src="/valentine-app/valentine-music.mp3"
+        src="/valentine-app/valentine-music2.mp3"
         loop
         volume="0.3"
       />
