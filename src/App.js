@@ -86,7 +86,7 @@ function App() {
       {/* Background Music */}
       <audio
         ref={audioRef}
-        src="/valentine-music.mp3"
+        src="/valentine-app/valentine-music.mp3"
         loop
         volume="0.3"
       />
@@ -103,7 +103,7 @@ function App() {
       <div className="content">
         {!answered ? (
           <div className="question-container">
-            <h1 className="question">Ishita, will you be my Valentine? 💕</h1>
+            <h1 className="question">Priyanka, will you be my Valentine? 💕</h1>
             
             <div className="buttons-container">
               <button 
@@ -197,19 +197,19 @@ function App() {
             {/* Photo Gallery */}
             <div className="photo-gallery">
               <div className="photo-item">
-                <img src="/photo1.jpg" alt="Us 1" className="gallery-photo" />
+                <img src="/valentine-app/photo1.jpg" alt="Us 1" className="gallery-photo" />
                 <div className="photo-glow"></div>
               </div>
               <div className="photo-item">
-                <img src="/photo2.jpg" alt="Us 2" className="gallery-photo" />
+                <img src="/valentine-app/photo2.jpg" alt="Us 2" className="gallery-photo" />
                 <div className="photo-glow"></div>
               </div>
               <div className="photo-item">
-                <img src="/photo3.jpg" alt="Us 3" className="gallery-photo" />
+                <img src="/valentine-app/photo3.jpg" alt="Us 3" className="gallery-photo" />
                 <div className="photo-glow"></div>
               </div>
               <div className="photo-item">
-                <img src="/photo4.jpg" alt="Us 4" className="gallery-photo" />
+                <img src="/valentine-app/photo4.jpg" alt="Us 4" className="gallery-photo" />
                 <div className="photo-glow"></div>
               </div>
             </div>
@@ -227,7 +227,7 @@ function App() {
             {/* Personalized Message */}
             <div className="personal-message">
               <p className="signature">With all my love,</p>
-              <p className="from-name">💚 Shivendra 💚</p>
+              <p className="from-name">💚 Mayank 💚</p>
             </div>
           </div>
         )}
